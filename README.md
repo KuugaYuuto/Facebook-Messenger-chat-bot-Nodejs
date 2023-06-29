@@ -1,21 +1,21 @@
 # Facebook-Messenger-chat-bot-Nodejs
 - A simple Facebook Messenger Chatbot using Mesenger Platform (Node.js)
 
-## How to run this project ? 
+## Làm sao để chạy project ? 
 
-### 1. Clone this project
-- Copy file .env.example -> create a .env file at the root folder -> fill all app variables in the .evn file
-- Run the "npm install" to test project at the localhost
+### 1. Tải project này về
+- Copy file .env.example -> Tạo 1 file .env tại thư mục gốc -> Điền tất cả ứng dụng khả thi vào file .evn
+- Chạy "npm install" để test project tại localhost
 
-### 2. Create a Heroku app, a Facebook Page, a Facebook App.
-#### 2.1 Create a Heroku app
-- Deploy app to Heroku ( need to setup dev dependencies:
+### 2. Tạo 1 Heroku app, a Facebook Page, a Facebook App.
+#### 2.1 Tạo Heroku app
+- Triển khai ứng dụng lên Heroku ( cần phải setup dev dependencies:
 heroku config:set NPM_CONFIG_PRODUCTION=false
 )
-- Config env variables (setup dev dependencies)
+- Config biến env (setup dev dependencies)
 #### 2.2 Facebook Page
-- Create a Facebook Page
-- Config Whitelisted Domains (add the Heroku app domain)
+- Tạo 1 trang Facebook
+- Config miền (Domains) trong Whitelisted (thêm miền (Domain) ứng dụng Heroku)
 #### 2.3 Facebook App
-- Create a Facebook App
+- Tạo Facebook App (Messenger)
 - Config webhook
