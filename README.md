@@ -1,5 +1,5 @@
 # Facebook-Messenger-chat-bot-Nodejs
-- A simple Facebook Messenger Chatbot using Mesenger Platform (Node.js)
+- Một Facebook Messenger Chatbot đơn giản sử dụng Mesenger Platform (Node.js)
 
 ## Làm sao để chạy project ? 
 
